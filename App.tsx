@@ -1,12 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
+import { PlaidLink, LinkSuccess, LinkExit } from "react-native-plaid-link-sdk";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <PlaidLink
+        tokenConfig={{ token: "#GENERATED_LINK_TOKEN#", noLoadingState: false }}
+        onSuccess={(success: LinkSuccess) => console.log(success)}
+        onExit={(exit: LinkExit) => console.log(exit)}
+      >
+        <Text>Add Account</Text>
+      </PlaidLink>
     </View>
   );
 }
@@ -14,8 +19,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

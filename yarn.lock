@@ -4460,6 +4460,11 @@ react-native-codegen@^0.0.6:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
+react-native-plaid-link-sdk@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-plaid-link-sdk/-/react-native-plaid-link-sdk-7.2.0.tgz#a7c7df7b20006bb0b305a5d1b79607251d386633"
+  integrity sha512-9Y5GTnHNaGUgjn11DUVO39HmYxPu1TGhGRYstVwx1Uv0Xsw1ZS9UOKhxqxZCHQFxzkcsfXeYwrmmgn+xKwG2og==
+
 react-native-web@0.17.1:
   version "0.17.1"
   resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.17.1.tgz#90d473c89dd99b88bc9830b2a9fcdd2fc5f04902"
