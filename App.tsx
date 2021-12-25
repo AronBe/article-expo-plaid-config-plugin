@@ -6,7 +6,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <PlaidLink
-        tokenConfig={{ token: "#GENERATED_LINK_TOKEN#", noLoadingState: false }}
+        tokenConfig={{
+          token: "link-sandbox-965dbc89-14fc-4122-b900-27a562de6db0",
+          noLoadingState: false,
+        }}
         onSuccess={(success: LinkSuccess) => console.log(success)}
         onExit={(exit: LinkExit) => console.log(exit)}
       >
