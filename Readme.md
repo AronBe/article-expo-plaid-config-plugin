@@ -1,0 +1,1 @@
+To accompany my tutorial: [How to Integrate Plaid SDK To React Native using Expo Config Plugins](https://www.aronberezkin.com/posts/how-to-integrate-plaid-sdk-to-react-native-using-expo-config-plugins)
