@@ -1,0 +1,3 @@
+To accompany my tutorial: [How to Integrate Plaid SDK To React Native using Expo Config Plugins](https://www.aronberezkin.com/posts/how-to-integrate-plaid-sdk-to-react-native-using-expo-config-plugins)
+
+**Troubleshooting**: I have discovered 2 potential issues when implementing Plaid on Android, so if you are facing build errors or your app is crashing, you might find an answer in these github issues: [Kotlin version](https://github.com/plaid/react-native-plaid-link-sdk/issues/392#issuecomment-868857758) and [OkHttp version](https://github.com/plaid/react-native-plaid-link-sdk/issues/146#issuecomment-648286809).
